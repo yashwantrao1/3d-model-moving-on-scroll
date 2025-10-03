@@ -107,7 +107,7 @@ section {
 }
 
 .scan-container {
-  width: 280px;
+  width: 350px;
   height: 480px;
   border: 1px solid #000;
   border-radius: 0.5em;
@@ -116,19 +116,26 @@ section {
 .barcode {
   position: absolute;
   bottom: 1em;
-  left: 2em;
-  width: 200px;
-  height: 50px;
+  left: 1em;
+  width: 45%;
+  aspect-ratio: auto;
+  display: flex;
+
 }
 
 .purchased {
   position: absolute;
-  bottom: 2em;
-  right: 2em;
-  padding: 0.5em 4em;
+  bottom: 1em;
+  right: 1em;
+  padding: 0.5em 0.5em;
   color: red;
   border: 1px solid red;
   border-radius: 2em;
+  width: fit-content;
+  right: 0;
+  p{
+    font-size: 14px;
+  }
 }
 
 .outro h2 {
